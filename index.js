@@ -30,7 +30,6 @@ let alterStyles = (isBackToTopRendered) => {
     : "scale(0)";
 };
 
-
 window.addEventListener("scroll", () => {
   if (window.scrollY > 700) {
     isBackToTopRendered = true;
