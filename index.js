@@ -34,8 +34,11 @@ window.addEventListener("scroll", () => {
   if (window.scrollY > 700) {
     isBackToTopRendered = true;
     alterStyles(isBackToTopRendered);
-  } else {
+  } 
+  
+  else {
     isBackToTopRendered = false;
     alterStyles(isBackToTopRendered);
   }
+
 });
