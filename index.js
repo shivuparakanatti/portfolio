@@ -17,7 +17,6 @@ const handleMouseDownOnce = () => {
   window.removeEventListener('mousedown', handleMouseDownOnce)
   window.addEventListener('keydown', handleFirstTab)
 }
-
 window.addEventListener('keydown', handleFirstTab)
 
 const backToTopButton = document.querySelector(".back-to-top");
@@ -30,6 +29,7 @@ let alterStyles = (isBackToTopRendered) => {
     ? "scale(1)"
     : "scale(0)";
 };
+
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 700) {
